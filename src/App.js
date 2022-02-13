@@ -1,6 +1,6 @@
 import './App.css';
 import APIComponent from './components/APIComponent';
-import DummyComponent from './components/DummyComponent';
+import DummyComponent from './components/DummyComponent1';
 
 function App() {
   return (
