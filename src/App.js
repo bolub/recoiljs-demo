@@ -7,7 +7,6 @@ import { dummyAtom, dummySelector } from './state/dummyState';
 
 function App() {
   const [value, setValue] = useRecoilState(dummyAtom);
-  const dummySelectorValue = useRecoilValue(dummySelector);
 
   return (
     <div className='flex flex-col min-h-screen w-full py-20'>

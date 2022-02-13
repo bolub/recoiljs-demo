@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRecoilValue, useRecoilValueLoadable } from 'recoil';
+import { useRecoilValueLoadable } from 'recoil';
 import { apiSelector } from '../state/dummyState';
 
 const APIComponent = () => {
